@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coursera Credential Portfolio</title>
+    <meta
+      name="description"
+      content="A focused portfolio of completed Coursera credentials in technology, artificial intelligence, and cybersecurity."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#top">Credential Portfolio</a>
+        <div class="nav-links">
+          <a href="#credentials">Credentials</a>
+          <a href="#skills">Skills</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Coursera accomplishments</p>
+          <h1>Technology, AI, and Cybersecurity Credentials</h1>
+          <p class="hero-copy">
+            A curated view of completed Coursera learning across technical foundations,
+            applied AI, security practices, and career-ready digital skills.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#credentials">View credentials</a>
+            <a class="button secondary" href="#skills">View skills</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="Portfolio summary">
+          <div>
+            <span class="metric" id="credential-count">0</span>
+            <span class="metric-label">included credentials</span>
+          </div>
+          <div>
+            <span class="metric" id="skill-count">0</span>
+            <span class="metric-label">skills represented</span>
+          </div>
+          <div>
+            <span class="metric" id="category-count">0</span>
+            <span class="metric-label">focus areas</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="toolbar" aria-label="Credential filters">
+        <div>
+          <p class="section-kicker">Focus areas</p>
+          <h2>Filter the portfolio</h2>
+        </div>
+        <div class="filter-buttons" id="filters" role="list"></div>
+      </section>
+
+      <section class="content-section" id="credentials">
+        <div class="section-heading">
+          <p class="section-kicker">Completed coursework</p>
+          <h2>Credential Gallery</h2>
+        </div>
+        <div class="credential-grid" id="credential-grid"></div>
+      </section>
+
+      <section class="content-section split" id="skills">
+        <div>
+          <p class="section-kicker">Capability signal</p>
+          <h2>Skills represented</h2>
+          <p class="section-copy">
+            A consolidated view of the technologies, security practices, and AI concepts
+            represented by the selected credentials.
+          </p>
+        </div>
+        <div class="skill-cloud" id="skill-cloud"></div>
+      </section>
+
+    </main>
+
+    <script src="credentials.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
