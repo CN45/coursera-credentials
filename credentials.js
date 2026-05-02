@@ -40,6 +40,46 @@ window.CREDENTIALS = [
     skills: ["AI", "Machine Learning"]
   },
   {
+    title: "Gen AI Agents: Transform Your Organization",
+    issuer: "Google",
+    categories: ["Artificial Intelligence"],
+    completed: "January 16, 2026",
+    verificationUrl: "https://www.coursera.org/account/accomplishments/certificate/2SNK5NOJ7DDO",
+    featured: false,
+    include: true,
+    skills: ["AI Agents", "AI"]
+  },
+  {
+    title: "Intro to AI and Machine Learning",
+    issuer: "Google",
+    categories: ["Artificial Intelligence"],
+    completed: "February 21, 2026",
+    verificationUrl: "https://www.coursera.org/account/accomplishments/certificate/3KBLJ49SRWBY",
+    featured: false,
+    include: true,
+    skills: ["Machine Learning", "AI", "Vertex AI"]
+  },
+  {
+    title: "AI Automation with Claude",
+    issuer: "Anthropic",
+    categories: ["Artificial Intelligence"],
+    completed: "January 10, 2026",
+    verificationUrl: "https://www.coursera.org/account/accomplishments/certificate/CYHZPXPKJKB4",
+    featured: false,
+    include: true,
+    skills: ["AI Automation", "Claude"]
+  },
+  {
+    title: "AWS Services for AI Solutions",
+    issuer: "Amazon AWS",
+    categories: ["Artificial Intelligence"],
+    completed: "December 13, 2025",
+    verificationUrl: "https://www.coursera.org/account/accomplishments/certificate/82TTB7J5V2I1",
+    featured: false,
+    include: true,
+    skills: ["Amazon AWS", "AI Solutions"]
+  },
+  {
     title: "Securing Generative AI",
     issuer: "Pearson",
     categories: ["Artificial Intelligence", "Cybersecurity"],
@@ -98,16 +138,6 @@ window.CREDENTIALS = [
     featured: false,
     include: true,
     skills: ["Machine Learning"]
-  },
-  {
-    title: "AI Agents",
-    issuer: "UC Davis",
-    categories: ["Artificial Intelligence"],
-    completed: "August 16, 2025",
-    verificationUrl: "https://www.coursera.org/account/accomplishments/certificate/KJA1SD21FGOI",
-    featured: false,
-    include: true,
-    skills: ["AI Agents"]
   },
   {
     title: "ISC2 Certified in Cybersecurity",
