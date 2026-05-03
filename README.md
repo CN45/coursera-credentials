@@ -1,6 +1,6 @@
-# Coursera Credential Portfolio
+# AI and Cybersecurity Credentials
 
-A static GitHub Pages site for showcasing selected Coursera credentials in technology, AI, and cybersecurity.
+A static GitHub Pages site for showcasing selected Coursera credentials in AI and cybersecurity.
 
 ## How to Update Credentials
 
@@ -27,6 +27,6 @@ Keep `include` set to `true` for credentials that should appear on the public si
 
 ## LinkedIn Project Text
 
-**Project title:** Coursera Credential Portfolio: Technology, AI, and Cybersecurity
+**Project title:** AI and Cybersecurity Credentials
 
-**Description:** Built a GitHub Pages portfolio that organizes my completed Coursera credentials across technology, artificial intelligence, and cybersecurity. The project highlights verified coursework, practical skill areas, and continued learning aligned with modern technical and security-focused roles.
+**Description:** Built a GitHub Pages portfolio that organizes my completed Coursera credentials across artificial intelligence and cybersecurity. The project highlights verified coursework, practical skill areas, and continued learning aligned with modern technical and security-focused roles.
