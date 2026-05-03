@@ -1,4 +1,6 @@
-const credentials = (window.CREDENTIALS || []).filter((credential) => credential.include);
+const credentials = (window.CREDENTIALS || [])
+  .filter((credential) => credential.include)
+  .sort((a, b) => getCompletionTime(b.completed) - getCompletionTime(a.completed));
 let activeCategory = "All";
 
 const grid = document.querySelector("#credential-grid");
@@ -7,6 +9,11 @@ const skillCloud = document.querySelector("#skill-cloud");
 
 function normalizeClassName(value) {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+}
+
+function getCompletionTime(dateText) {
+  const timestamp = Date.parse(dateText);
+  return Number.isNaN(timestamp) ? 0 : timestamp;
 }
 
 function getCategories() {
