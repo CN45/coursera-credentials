@@ -148,5 +148,13 @@ window.CREDENTIALS = [
     featured: false,
     include: true,
     skills: ["Cybersecurity"]
-  }
+  },
+   title: "Foundations in Human-Centered AI",
+    issuer: "Northwestern University",
+    categories: ["Artifical Intelligence"],
+    completed: "May 3, 2026",
+    verificationUrl: "https://www.coursera.org/account/accomplishments/certificate/RVM9V034SDOG",
+    featured: false,
+    include: true,
+    skills: ["Human-Centered AI Design"]
 ];
