@@ -158,5 +158,45 @@ window.CREDENTIALS = [
     featured: false,
     include: true,
     skills: ["Human-Centered AI Design"]
+  },
+  {
+    title: "OpenAI GPTs",
+    issuer: "Vanderbilt University",
+    categories: ["Artificial Intelligence"],
+    completed: "July 27, 2025",
+    verificationUrl: "https://www.coursera.org/account/accomplishments/certificate/8GBKXXG0ULPW",
+    featured: false,
+    include: true,
+    skills: ["Generative AI", "AI Agents"]
+  },
+  {
+    title: "Responsible AI",
+    issuer: "Google",
+    categories: ["Artificial Intelligence"],
+    completed: "September 14, 2025",
+    verificationUrl: "https://www.coursera.org/account/accomplishments/certificate/MT2282ILEP1L",
+    featured: false,
+    include: true,
+    skills: ["Responsible AI"]
+  },
+  {
+    title: "Introduction to Large Language Models",
+    issuer: "Google",
+    categories: ["Artificial Intelligence"],
+    completed: "September 14, 2025",
+    verificationUrl: "https://www.coursera.org/account/accomplishments/certificate/87A0HO3BD69J",
+    featured: false,
+    include: true,
+    skills: ["Generative AI", "LLMs", "Model Optimization", "Fine-Tuning", "Reinforcement Learning"]
+  },
+  {
+    title: "Generative AI with LLMs",
+    issuer: "AWS, DeepLearning.AI",
+    categories: ["Artificial Intelligence"],
+    completed: "October 2, 2025",
+    verificationUrl: "https://www.coursera.org/account/accomplishments/certificate/XIZ99SGVJTOL",
+    featured: false,
+    include: true,
+    skills: ["Generative AI", "LLMs", "Model Optimization", "Fine-Tuning", "Reinforcement Learning"]
   }
 ];
