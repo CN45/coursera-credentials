@@ -198,5 +198,15 @@ window.CREDENTIALS = [
     featured: false,
     include: true,
     skills: ["Generative AI", "LLMs", "Model Optimization", "Fine-Tuning", "Reinforcement Learning"]
+  },
+  {
+    title: "Design AI Agents with OpenAI AgentKit",
+    issuer: "Edureka",
+    categories: ["Artificial Intelligence"],
+    completed: "June 8, 2026",
+    verificationUrl: "https://www.coursera.org/account/accomplishments/verify/MZSIECS6GDHZ",
+    featured: false,
+    include: true,
+    skills: ["AI Agents", "OpenAI", "AgentKit", "Model Context Protocol", "Tool Calling"]
   }
 ];
